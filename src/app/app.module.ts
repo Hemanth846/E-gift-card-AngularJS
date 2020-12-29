@@ -14,6 +14,8 @@ import { MyntraComponent } from './myntra/myntra.component';
 import { KfcComponent } from './kfc/kfc.component';
 import { PizzahutComponent } from './pizzahut/pizzahut.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { AboutComponent } from './about/about.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     MyntraComponent,
     KfcComponent,
     PizzahutComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    AboutComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,5 @@
+import { AboutComponent } from './about/about.component';
+import { SignupComponent } from './signup/signup.component';
 import { PizzahutComponent } from './pizzahut/pizzahut.component';
 import { MyntraComponent } from './myntra/myntra.component';
 import { FlipkartComponent } from './flipkart/flipkart.component';
@@ -20,6 +22,8 @@ const routes: Routes = [
   { path: 'flipkart', component: FlipkartComponent },
   { path: 'myntra', component: MyntraComponent },
   { path: 'pizzahut', component: PizzahutComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'about', component: AboutComponent },
   { path: '**' , component: PagenotfoundComponent}
 ];
 
