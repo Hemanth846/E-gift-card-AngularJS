@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+    <div class="container">
+        <a routerLinkActive="active"  routerLink="/home" class="navbar-brand text-warning font-weight-bold">OHO</a>
+    <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#collapsenavbar">
+    <span class="navbar-toggler-icon"></span>	
+
+    </button>
+    
+        <div class="collapse navbar-collapse text-center "id="collapse-navbar">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a routerLinkActive="active"  routerLink="/home"class="nav-link text-white ">Home</a>
+                </li>
+
+                <li class="nav-item dropdown show">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Brands
+                    </a>
+                    <div class="dropdown-menu show" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" routerLinkActive="active"  routerLink="/amazon">Amazon</a>
+                      <a class="dropdown-item" routerLinkActive="active"  routerLink="/flipkart">Flipcart</a>
+                      <a class="dropdown-item" routerLinkActive="active"  routerLink="/kfc">KFC</a>
+                      <a class="dropdown-item" routerLinkActive="active"  routerLink="/pizzahut">Pizza Hut</a>
+                      <a class="dropdown-item" routerLinkActive="active"  routerLink="/myntra">Myntra</a>
+                      <a class="dropdown-item" href="#">bigbasket</a>
+                      <a class="dropdown-item" href="#">Dominos</a>
+                      <div class="dropdown-divider"></div>
+                    </div>
+                  </li>
+
+                <li class="nav-item">
+                    <a routerLinkActive="active"  routerLink="/home"class="nav-link text-white">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a routerLinkActive="active"  routerLink="/contact"class="nav-link text-white">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a routerLinkActive="active"  routerLink="/signin"class="nav-link text-white">Sign in/Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
